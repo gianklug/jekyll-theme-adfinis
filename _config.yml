@@ -1,0 +1,33 @@
+exclude:
+  - node_modules
+  - script
+  - vendor/
+
+sass:
+  style: :compressed
+
+#theme: jekyll-theme-adfinis
+
+#github:
+#  private: false
+#  license:
+#    name: AGPL-3.0-or-later
+#  source:
+#    branch: "main"
+#    path: "/"
+#  repository_url: "https://github.com/adfinis-sygroup/jekyll-theme-adfinis"
+
+title: Adfinis Jekyll Theme
+description: A Jekyll theme for Adfinis GitHub pages and docs.
+
+links:
+  homepage: https://adfinis.com
+  contact: https://adfinis.com/kontakt/
+  privacy: https://adfinis.com/privacypolicy/
+
+home:
+  links:
+    cta:
+      text: See our theme sample page!
+      href: demo.html
+      class: fa-code

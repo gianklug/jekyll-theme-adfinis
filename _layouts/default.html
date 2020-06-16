@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Source Sans Pro:300,400,700,400|Open Sans:300|Open Sans:300&display=swap" rel="stylesheet">
+    <link href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css?ver=2.3.2.5&display=swap" rel="stylesheet">
+    <link href="{{ "/assets/css/syntax.css?v=" | append: site.github.build_revision | relative_url }}" rel="stylesheet">
+    <style>
+    * {
+        box-sizing: border-box;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    body {
+        margin: 0;
+    }
+    h1, h2, h3, h4, h5 {
+        font-family: 'Open Sans Light', sans-serif;
+    }
+    nav.adfinis-nav-head {
+        color: #2e4b98;
+    }
+    nav.adfinis-nav-head img.adfinis-nav-head-img {
+        width: 128px;
+        height: 128px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 20px;
+        padding-right: 15px;
+        padding-bottom: 25px;
+        padding-left: 35px;
+    }
+    nav.adfinis-nav-head a.adfinis-nav-head-homepage {
+        margin: 3px 20px 3px 20px;
+        padding: 15px;
+        position: absolute;
+        top: 38px;
+        right: 118px;
+        font-size: 16px;
+        font-weight: 800;
+        text-decoration: none;
+    }
+    nav.adfinis-nav-head a.adfinis-nav-head-homepage:hover {
+        color: #111110;
+    }
+    nav.adfinis-nav-head a.adfinis-nav-head-contact {
+        color: #2e987b;
+        box-shadow: 0 0 0 2px #2e987b;
+        border-radius: 30px;
+        margin: 3px 20px 3px 20px;
+        padding: 15px;
+        position: absolute;
+        top: 38px;
+        right: 18px;
+        font-size: 16px;
+        font-weight: 800;
+        text-decoration: none;
+    }
+    nav.adfinis-nav-head a.adfinis-nav-head-contact:hover {
+        background-color: #2e987b;
+        color: white;
+    }
+
+    div.adfinis-home-hero {
+        background-color: #2e4b98;
+        color: white;
+        padding: 3em;
+        border-bottom: 10px solid #8b8b8c;
+    }
+    div.adfinis-home-hero h1 {
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 300;
+        margin-bottom: 18px;
+    }
+    div.adfinis-home-hero strong {
+        font-size: 17px;
+        font-weight: 700;
+    }
+    div.adfinis-home-hero-cta button {
+        margin: 30px 0px 0px 0px;
+        padding: 12px 24px 12px 24px;
+        border: 0px;
+        color: white;
+        background-color: rgb(46, 152, 123);
+        font-size: 16px;
+    }
+    div.adfinis-home-hero-cta button:hover {
+        background-color: #3b4550;
+        cursor: pointer;
+    }
+    div.adfinis-home-content,
+    div.adfinis-page-content {
+        background-color: #f2f2f2;
+        padding: 3em;
+    }
+    div.adfinis-home-content h1 {
+        font-weight: 300;
+    }
+    div.adfinis-page-content div.adfinis-main-content {
+        background-color: white;
+        margin: 0px;
+        padding: 1em 1em 0 1em;
+        overflow: scroll;
+        box-shadow: inset 0px 0px 4px 1px #ccc;
+    }
+    div.adfinis-nav-foot,
+    div.adfinis-nav-foot a {
+        color: white;
+    }
+    div.adfinis-nav-foot {
+        margin: 0px;
+    }
+    div.adfinis-nav-foot a {
+        text-decoration: none;
+    }
+    div.adfinis-nav-foot div.adfinis-nav-foot-pp {
+        background-color: #1c2e5d;
+        font-size: 14px;
+        font-weight: 400;
+        padding-top: 30px;
+        padding-right: 20px;
+        padding-bottom: 30px;
+        padding-left: 20px;
+    }
+
+    .fl-button i.fl-button-icon-after {
+        margin-left: 8px;
+    }
+
+    .highlighter-rouge pre.highlight {
+        padding: 1em 1em 1em 1em;
+    }
+    </style>
+  </head>
+  <body>
+    <nav class="adfinis-nav-head">
+      <a href="/"><img class="adfinis-nav-head-img" src="https://adfinis.com/wp-content/uploads/sites/9/2020/04/Adfinis_Blue.png"></a>
+      <a class="adfinis-nav-head-homepage" href="{{ site.links.homepage }}"> <i class="fl-button-icon fl-button-icon-before fas fa-sign-in-alt"></i> Adfinis</a>
+      <a class="adfinis-nav-head-contact" href="{{ site.links.contact }}"><strong>Contact</strong></a>
+    </nav>
+    {{ content }}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+    <div class="adfinis-nav-foot">
+      <nav>
+      </nav>
+      <div class="adfinis-nav-foot-pp">© 2020 <a href="{{ site.links.homepage }}">Adfinis</a> | <a href="{{ site.links.privacy }}">Privacy Policy</a></div>
+    </div>
+  </body>
+</html>
