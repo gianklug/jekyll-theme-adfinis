@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div class="adfinis-home-hero">
+  <h1>{{ site.title }}</h1>
+  <strong>{{ site.description }}</strong>
+  <div class="adfinis-home-hero-cta">
+      <button class="fl-button" onclick="window.location.href='{{ site.home.links.cta.href }}';">{{ site.home.links.cta.text }}<i class="fl-button-icon fl-button-icon-after fas {{ site.home.links.cta.class }}"></i></button>
+  </div>
+</div>
+<div class="adfinis-home-content">
+  {{ content }}
+</div>
