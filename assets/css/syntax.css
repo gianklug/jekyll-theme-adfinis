@@ -7,7 +7,7 @@ a {
     color: #2e4b98;
 }
 
-table {
+table, td {
     border-spacing: 0;
     border-collapse: collapse;
     border: 1px solid #dfe2e5;
