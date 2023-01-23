@@ -7,13 +7,13 @@ a {
     color: #2e4b98;
 }
 
-table, td {
+table, td, th {
     border-spacing: 0;
     border-collapse: collapse;
     border: 1px solid #dfe2e5;
 }
 
-td {
+td, th {
   padding: 6px 13px;
 }
 
@@ -389,7 +389,6 @@ div.adfinis-home-hero-cta button:hover {
 
 div.adfinis-home-content,
 div.adfinis-page-content {
-    background-color: #f2f2f2;
     padding: 3em;
 }
 
