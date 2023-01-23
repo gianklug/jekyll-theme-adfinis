@@ -3,6 +3,10 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+a {
+    color: #2e4b98;
+}
+
 .highlight table td {
     padding: 5px;
 }
@@ -279,7 +283,7 @@
     background-color: #f8f8f8;
 }
 
-.highlight>code>span {
+.highlight>code>span, .highlight>code {
     font-family: Monospace;
 }
 
