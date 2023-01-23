@@ -16,7 +16,8 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll", "~> 3.8", "< 5.0"
   spec.add_runtime_dependency 'jekyll-github-metadata', '~> 2.9'
   spec.add_runtime_dependency 'jekyll-seo-tag', '~> 2.0'
-  spec.add_development_dependency "bundler", "~> 1.16"
+  spec.add_runtime_dependency 'kramdown-parser-gfm', '>= 1.1.0'
+  spec.add_development_dependency "bundler", "~> 2.4.1"
   spec.add_development_dependency "rake", "~> 12.0"
   spec.add_development_dependency 'html-proofer', '~> 3.0'
   spec.add_development_dependency 'rubocop', '~> 0.50'
