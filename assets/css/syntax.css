@@ -13,6 +13,10 @@ table {
     border: 1px solid #dfe2e5;
 }
 
+td {
+  padding: 6px 13px;
+}
+
 .highlight table td {
     padding: 5px;
 }
