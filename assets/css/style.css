@@ -17,6 +17,10 @@ td, th {
   padding: 6px 13px;
 }
 
+table tr:nth-child(2n) {
+    background-color: #efefef;
+}
+
 .highlight table td {
     padding: 5px;
 }
